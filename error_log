@@ -1,0 +1,199 @@
+[11-Jan-2016 03:46:40 America/Chicago] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home4/chetanc/public_html/drive_test/index.php on line 6
+[11-Jan-2016 03:48:22 America/Chicago] PHP Warning:  include_once(templates/base.php): failed to open stream: No such file or directory in /home4/chetanc/public_html/drive_test/index.php on line 2
+[11-Jan-2016 03:48:22 America/Chicago] PHP Warning:  include_once(): Failed opening 'templates/base.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/chetanc/public_html/drive_test/index.php on line 2
+[11-Jan-2016 03:48:22 America/Chicago] PHP Fatal error:  Call to undefined function pageHeader() in /home4/chetanc/public_html/drive_test/index.php on line 3
+[11-Jan-2016 03:49:04 America/Chicago] PHP Warning:  require_once(/home4/chetanc/public_html/drive_test): failed to open stream: No such file or directory in /home4/chetanc/public_html/drive_test/index.php on line 3
+[11-Jan-2016 03:49:04 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/opt/php54/lib/php') in /home4/chetanc/public_html/drive_test/index.php on line 3
+[11-Jan-2016 03:52:28 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/chetanc/public_html/drive_test/index.php on line 2
+[11-Jan-2016 03:54:04 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_request: Missing parameter: client_id'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/xjj17KSTvXAgr...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(10): Google_Client->authenticate('4/xjj17KSTvXAgr...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[11-Jan-2016 03:54:53 America/Chicago] PHP Warning:  file_get_contents(a.jpg): failed to open stream: No such file or directory in /home4/chetanc/public_html/drive_test/index.php on line 28
+[11-Jan-2016 03:55:41 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/xjj17KSTvXAgr...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/xjj17KSTvXAgr...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[11-Jan-2016 03:55:53 America/Chicago] PHP Warning:  file_get_contents(a.jpg): failed to open stream: No such file or directory in /home4/chetanc/public_html/drive_test/index.php on line 28
+[11-Jan-2016 03:56:16 America/Chicago] PHP Warning:  file_get_contents(a.jpg): failed to open stream: No such file or directory in /home4/chetanc/public_html/drive_test/index.php on line 28
+[11-Jan-2016 03:57:20 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/MomH41_XBkGzk...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/MomH41_XBkGzk...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[11-Jan-2016 03:57:27 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/MomH41_XBkGzk...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/MomH41_XBkGzk...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[11-Jan-2016 03:57:37 America/Chicago] PHP Warning:  file_get_contents(a.jpg): failed to open stream: No such file or directory in /home4/chetanc/public_html/drive_test/index.php on line 28
+[11-Jan-2016 04:47:11 America/Chicago] PHP Warning:  array_merge(): Argument #2 is not an array in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Drive.php on line 1871
+[11-Jan-2016 04:47:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Resource.php on line 140
+[11-Jan-2016 04:47:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Http/REST.php on line 150
+[11-Jan-2016 04:48:25 America/Chicago] PHP Warning:  array_merge(): Argument #2 is not an array in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Drive.php on line 1871
+[11-Jan-2016 04:48:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Resource.php on line 140
+[11-Jan-2016 04:48:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Http/REST.php on line 150
+[11-Jan-2016 04:49:51 America/Chicago] PHP Warning:  array_merge(): Argument #2 is not an array in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Drive.php on line 1871
+[11-Jan-2016 04:49:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Resource.php on line 140
+[11-Jan-2016 04:49:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Http/REST.php on line 150
+[11-Jan-2016 04:53:46 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/IazHq42Qk2LWw...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/IazHq42Qk2LWw...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[11-Jan-2016 04:53:49 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/qme43iViiFdil...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/qme43iViiFdil...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[11-Jan-2016 04:53:51 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/7wsUOW0b2KT_2...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/7wsUOW0b2KT_2...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[11-Jan-2016 04:56:32 America/Chicago] PHP Warning:  array_merge(): Argument #2 is not an array in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Drive.php on line 1871
+[11-Jan-2016 04:56:32 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Resource.php on line 140
+[11-Jan-2016 04:56:32 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Http/REST.php on line 150
+[11-Jan-2016 04:57:26 America/Chicago] PHP Warning:  array_merge(): Argument #2 is not an array in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Drive.php on line 1871
+[11-Jan-2016 04:57:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Resource.php on line 140
+[11-Jan-2016 04:57:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Http/REST.php on line 150
+[11-Jan-2016 05:03:04 America/Chicago] PHP Warning:  array_merge(): Argument #2 is not an array in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Drive.php on line 1871
+[11-Jan-2016 05:03:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Service/Resource.php on line 140
+[11-Jan-2016 05:03:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/chetanc/public_html/drive_test/gac/src/Google/Http/REST.php on line 150
+[11-Jan-2016 05:06:46 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/Isp6sT4vHD2hC...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/Isp6sT4vHD2hC...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[11-Jan-2016 05:09:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/Isp6sT4vHD2hC...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/Isp6sT4vHD2hC...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[11-Jan-2016 05:27:30 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/QKUItVrtCUKh5...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/QKUItVrtCUKh5...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[11-Jan-2016 05:39:06 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/Cd4lyciFYQU1a...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/Cd4lyciFYQU1a...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 00:04:44 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/1iPqphhuefr_N...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/1iPqphhuefr_N...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 01:33:50 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/gM2DSzXBDjlk2...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/gM2DSzXBDjlk2...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 02:48:39 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/kFKqei4bwX-vX...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/kFKqei4bwX-vX...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 02:48:40 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/kFKqei4bwX-vX...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/kFKqei4bwX-vX...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 03:03:08 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Invalid code.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/L7_i-Rz9SeOIn...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/L7_i-Rz9SeOIn...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 03:03:09 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/L7_i-Rz9SeOIn...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/L7_i-Rz9SeOIn...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 03:06:55 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/lx8Dyu7KZw9q5...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/lx8Dyu7KZw9q5...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 03:15:00 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/JjjvWfS7esPZj...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/JjjvWfS7esPZj...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 03:16:03 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/fENyL30l7QqlB...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/fENyL30l7QqlB...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 03:17:12 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/IOx4G7SDcpQ48...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/IOx4G7SDcpQ48...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 03:17:29 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/t_SdoDBE0PRm3...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/t_SdoDBE0PRm3...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 03:23:40 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/c_HX5YEWkX61T...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/c_HX5YEWkX61T...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 03:57:28 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/t4Z5ltmV_pMAv...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/t4Z5ltmV_pMAv...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 04:14:29 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/lnsRJFSSO1JgM...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/lnsRJFSSO1JgM...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 04:47:49 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/lnsRJFSSO1JgM...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/lnsRJFSSO1JgM...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 04:47:49 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/lnsRJFSSO1JgM...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/lnsRJFSSO1JgM...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[12-Jan-2016 06:20:29 America/Chicago] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant: Code was already redeemed.'' in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php:126
+Stack trace:
+#0 /home4/chetanc/public_html/drive_test/gac/src/Google/Client.php(128): Google_Auth_OAuth2->authenticate('4/nuku3z643DULn...', false)
+#1 /home4/chetanc/public_html/drive_test/index.php(15): Google_Client->authenticate('4/nuku3z643DULn...')
+#2 {main}
+  thrown in /home4/chetanc/public_html/drive_test/gac/src/Google/Auth/OAuth2.php on line 126
+[13-Jan-2016 07:04:33 America/Chicago] PHP Fatal error:  Call to a member function export() on a non-object in /home4/chetanc/public_html/drive_test/download.php on line 13
+[13-Jan-2016 07:08:33 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/chetanc/public_html/drive_test/download.php on line 43
