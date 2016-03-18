@@ -11,7 +11,7 @@ $client->setRedirectUri('http://www.webmechanic.in/drive_test');
 $client->setScopes(array('https://www.googleapis.com/auth/drive.metadata.readonly'));
 
  
- 
+ // new comment add
 if (isset($_GET['code']) || (isset($_SESSION['access_token']) && $_SESSION['access_token'])) {
 		if (isset($_GET['code'])) {
 				$client->authenticate($_GET['code']);
