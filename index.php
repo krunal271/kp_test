@@ -87,3 +87,5 @@ function retrieveAllFiles($service) {
 	} while ($pageToken);
 	return $result;
 }
+
+echo "test";
